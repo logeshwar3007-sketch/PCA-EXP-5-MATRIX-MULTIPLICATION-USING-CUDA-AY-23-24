@@ -27,6 +27,7 @@ Google Colab with NVCC Compiler
 12.	Print Result: Print the result matrix and the elapsed time.
 13.	Free Device Memory: Finally, free the device memory that was allocated for the matrices.
 ## PROGRAM:
+~~~
 %%writefile matmul.cu
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -189,7 +190,7 @@ int main()
 
     return 0;
 }
-
+~~~
 ## OUTPUT:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d836445b-d723-4f73-9b5e-8e6bfe51870a" />
 
